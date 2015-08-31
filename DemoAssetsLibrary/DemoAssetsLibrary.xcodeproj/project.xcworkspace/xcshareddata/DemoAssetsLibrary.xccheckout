@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A29FD36-1170-4ACF-AEA5-CFA345F3E87B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoAssetsLibrary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0706411AC666C2ED3B4A4905A3EE86CD5797264A</key>
+		<string>https://github.com/potato512/AssetsLibraryImage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DemoAssetsLibrary/DemoAssetsLibrary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0706411AC666C2ED3B4A4905A3EE86CD5797264A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/potato512/AssetsLibraryImage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0706411AC666C2ED3B4A4905A3EE86CD5797264A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0706411AC666C2ED3B4A4905A3EE86CD5797264A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AssetsLibraryImage</string>
+		</dict>
+	</array>
+</dict>
+</plist>
