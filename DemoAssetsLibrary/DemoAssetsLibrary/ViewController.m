@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "PhotoHelper.h"
+#import "SYLibraryPhoto.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) UIScrollView *photoScrollView;
-@property (nonatomic, strong) PhotoHelper *photoHelper;
+@property (nonatomic, strong) SYLibraryPhoto *photoHelper;
 @property (nonatomic, strong) UIActivityIndicatorView *activityView;
 
 @end
@@ -61,7 +61,7 @@
     self.activityView.center = self.photoScrollView.center;
     [self resetActivityView:NO];
     
-    NSArray *array = [NSArray arrayWithObjects:@"first", @"last 1", @"last 2", @"all", @"最早n张图", @"最新n张图", nil];
+    NSArray *array = [NSArray arrayWithObjects:@"第一张图片", @"最后一张图片", @"最后第二张图片", @"全部图片", @"最老的N张图片", @"最新n张图片", nil];
     NSInteger count = array.count;
     for (int i = 0; i < count; i++)
     {
@@ -127,7 +127,7 @@
 {
     if (!self.photoHelper)
     {
-        self.photoHelper = [[PhotoHelper alloc] init];
+        self.photoHelper = [[SYLibraryPhoto alloc] init];
     }
     
     [self removePhotoScrollViewSubview];

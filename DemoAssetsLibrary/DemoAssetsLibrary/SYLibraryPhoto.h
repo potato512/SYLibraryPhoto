@@ -1,14 +1,14 @@
 //
-//  PhotoHelper.h
-//  DemoAssetsLibrary
+//  SYLibraryPhoto.h
+//  zhangshaoyu
 //
 //  Created by zhangshaoyu on 15/4/15.
 //  Copyright (c) 2015年 zhangshaoyu. All rights reserved.
-//
+//  从图库获取图片
 
 #import <Foundation/Foundation.h>
 
-@interface PhotoHelper : NSObject
+@interface SYLibraryPhoto : NSObject
 
 /// 第一张图片
 - (void)GetImageFirst:(void(^)(NSArray *images))success error:(void(^)(void))error;

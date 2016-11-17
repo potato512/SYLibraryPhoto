@@ -1,4 +1,4 @@
-# AssetsLibraryImage
+# SYLibraryPhoto
 Get images from AssetsLibrary
 
 从相册获取最新的，或最久的N张相片
@@ -6,7 +6,10 @@ Get images from AssetsLibrary
 ~~~ javascript
 
 // 导入头文件
-#import "PhotoHelper.h"
+#import "SYLibraryPhoto.h"
+
+// 定义属性
+@property (nonatomic, strong) SYLibraryPhoto *photoHelper;
 
 // 实例化
 self.photoHelper = [[PhotoHelper alloc] init];
@@ -60,4 +63,7 @@ self.photoHelper = [[PhotoHelper alloc] init];
 }];
 
 ~~~
+
+#效果图
+![LibraryPhoto](./LibraryPhoto.gif)
 

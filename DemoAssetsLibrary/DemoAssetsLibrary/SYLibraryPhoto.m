@@ -1,16 +1,16 @@
 //
-//  PhotoHelper.m
-//  DemoAssetsLibrary
+//  SYLibraryPhoto.m
+//  zhangshaoyu
 //
 //  Created by zhangshaoyu on 15/4/15.
 //  Copyright (c) 2015年 zhangshaoyu. All rights reserved.
 //
 
-#import "PhotoHelper.h"
+#import "SYLibraryPhoto.h"
 #import <UIKit/UIKit.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 
-@interface PhotoHelper ()
+@interface SYLibraryPhoto ()
 
 @property (nonatomic, strong) ALAssetsLibrary *assetsLibrary;
 
@@ -21,7 +21,7 @@
 
 @end
 
-@implementation PhotoHelper
+@implementation SYLibraryPhoto
 
 - (id)init
 {
@@ -53,7 +53,7 @@
     self.successBlock = [success copy];
     self.errorBlock = [error copy];
     
-    __weak PhotoHelper *weakSelf = self;
+    __weak SYLibraryPhoto *weakSelf = self;
     
     dispatch_queue_t dispatchQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(dispatchQueue, ^(void) {
@@ -123,7 +123,7 @@
     self.successBlock = [success copy];
     self.errorBlock = [error copy];
     
-    __weak PhotoHelper *weakSelf = self;
+    __weak SYLibraryPhoto *weakSelf = self;
     
     __block NSString *assetPropertyType = ALAssetTypePhoto;
     __block NSMutableArray *assets = [[NSMutableArray alloc] init];
@@ -205,7 +205,7 @@
     self.successBlock = [success copy];
     self.errorBlock = [error copy];
     
-    __weak PhotoHelper *weakSelf = self;
+    __weak SYLibraryPhoto *weakSelf = self;
 
     // Block called for every asset selected
     void (^selectionBlock)(ALAsset *, NSUInteger, BOOL *) = ^(ALAsset *asset, NSUInteger index, BOOL *innerStop) {
@@ -293,7 +293,7 @@
     self.successBlock = [success copy];
     self.errorBlock = [error copy];
     
-    __weak PhotoHelper *weakSelf = self;
+    __weak SYLibraryPhoto *weakSelf = self;
     
     __block NSString *assetPropertyType = ALAssetTypePhoto;
     __block NSMutableArray *assets = [[NSMutableArray alloc] init];
@@ -438,7 +438,7 @@
         }
     }
     
-    __weak PhotoHelper *weakSelf = self;
+    __weak SYLibraryPhoto *weakSelf = self;
     dispatch_async(dispatch_get_main_queue(), ^{
         if (weakSelf.successBlock)
         {
@@ -455,7 +455,7 @@
         return;
     }
     
-    __weak PhotoHelper *weakSelf = self;
+    __weak SYLibraryPhoto *weakSelf = self;
     
     NSMutableArray *images = [[NSMutableArray alloc] initWithArray:array];
     NSInteger realCount = images.count; // 实际图片数量
