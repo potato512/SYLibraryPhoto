@@ -1,7 +1,13 @@
 # SYLibraryPhoto
 Get images from AssetsLibrary
-
 从相册获取最新的，或最久的N张相片
+
+* 使用介绍
+  * 自动导入：使用命令`pod 'SYLibraryPhoto'`导入到项目中
+  * 手动导入：或下载源码后，将源码添加到项目中
+    * 手动导入时，需要添加`AssetsLibrary.framework`
+
+使用说明：
 
 导入头文件
 ```
