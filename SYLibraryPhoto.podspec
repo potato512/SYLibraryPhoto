@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "SYLibraryPhoto"
   s.version      = "1.0.0"
-  s.summary      = "A short description of SYLibraryPhoto."
+  s.summary      = "SYLibraryPhoto used to select photo from AssetsLibrary."
   s.homepage     = "https://github.com/potato512/SYLibraryPhoto"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "herman" => "zhangsy757@163.com" }
