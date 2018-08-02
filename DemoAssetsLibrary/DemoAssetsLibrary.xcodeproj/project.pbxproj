@@ -14,8 +14,8 @@
 		A726575A1ADEA4C500EFAD13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72657591ADEA4C500EFAD13 /* Images.xcassets */; };
 		A726575D1ADEA4C500EFAD13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A726575B1ADEA4C500EFAD13 /* LaunchScreen.xib */; };
 		A72657691ADEA4C500EFAD13 /* DemoAssetsLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72657681ADEA4C500EFAD13 /* DemoAssetsLibraryTests.m */; };
-		A72657741ADEAB2A00EFAD13 /* SYLibraryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A72657731ADEAB2A00EFAD13 /* SYLibraryPhoto.m */; };
 		A72657761ADEAB4900EFAD13 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72657751ADEAB4900EFAD13 /* AssetsLibrary.framework */; };
+		DF8CDCB621135719001F0C51 /* SYLibraryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8CDCB521135719001F0C51 /* SYLibraryPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		A72657621ADEA4C500EFAD13 /* DemoAssetsLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAssetsLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72657671ADEA4C500EFAD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A72657681ADEA4C500EFAD13 /* DemoAssetsLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAssetsLibraryTests.m; sourceTree = "<group>"; };
-		A72657721ADEAB2A00EFAD13 /* SYLibraryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLibraryPhoto.h; sourceTree = "<group>"; };
-		A72657731ADEAB2A00EFAD13 /* SYLibraryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLibraryPhoto.m; sourceTree = "<group>"; };
 		A72657751ADEAB4900EFAD13 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DF8CDCB421135719001F0C51 /* SYLibraryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLibraryPhoto.h; sourceTree = "<group>"; };
+		DF8CDCB521135719001F0C51 /* SYLibraryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLibraryPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,7 @@
 				A72657511ADEA4C500EFAD13 /* AppDelegate.m */,
 				A72657531ADEA4C500EFAD13 /* ViewController.h */,
 				A72657541ADEA4C500EFAD13 /* ViewController.m */,
-				A72657721ADEAB2A00EFAD13 /* SYLibraryPhoto.h */,
-				A72657731ADEAB2A00EFAD13 /* SYLibraryPhoto.m */,
+				DF8CDCB321135719001F0C51 /* SYLibraryPhoto */,
 				A72657561ADEA4C500EFAD13 /* Main.storyboard */,
 				A72657591ADEA4C500EFAD13 /* Images.xcassets */,
 				A726575B1ADEA4C500EFAD13 /* LaunchScreen.xib */,
@@ -126,6 +125,16 @@
 				A72657671ADEA4C500EFAD13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8CDCB321135719001F0C51 /* SYLibraryPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				DF8CDCB421135719001F0C51 /* SYLibraryPhoto.h */,
+				DF8CDCB521135719001F0C51 /* SYLibraryPhoto.m */,
+			);
+			name = SYLibraryPhoto;
+			path = ../../SYLibraryPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +239,7 @@
 			files = (
 				A72657551ADEA4C500EFAD13 /* ViewController.m in Sources */,
 				A72657521ADEA4C500EFAD13 /* AppDelegate.m in Sources */,
-				A72657741ADEAB2A00EFAD13 /* SYLibraryPhoto.m in Sources */,
+				DF8CDCB621135719001F0C51 /* SYLibraryPhoto.m in Sources */,
 				A726574F1ADEA4C500EFAD13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
